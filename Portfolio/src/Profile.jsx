@@ -40,7 +40,7 @@ const Portfolio = () => {
         </div>
       </motion.header>
 
-      <nav className={`${menuOpen ? "block" : "hidden"} md:hidden absolute top-16 left-0 w-full bg-gray-300 p-6 shadow-lg`}>  
+      <nav className={`${menuOpen ? "block" : "hidden"} ${darkMode ? "bg-gray-800" : "bg-gray-300"} md:hidden absolute top-16 left-0 w-full p-6 shadow-lg`}>  
         <ul className="flex flex-col space-y-4">
           <li><a href="#about" className="hover:text-blue-400">About</a></li>
           <li><a href="#projects" className="hover:text-blue-400">Projects</a></li>
